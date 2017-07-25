@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+		<driverName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverName>
+		<dbURL>jdbc:sqlserver://localhost:1433;databasename=test</dbURL>
+		<userName>sa</userName>
+		<userPwd>123</userPwd>
+</product>

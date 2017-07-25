@@ -1,0 +1,22 @@
+/*首页主体部分*/
+.main{
+	width: 80vw;
+	height: 50vh;
+	border: 1px red solid;
+	margin-left: 10vw;
+}
+/*user-front.jsp*/
+.ui.left.icon.input > input {
+	width: 9vw !important;
+}
+/*首页图片展示*/
+.gallery-li{
+	width: 161px;
+}
+.gallery-li,.gallery-li-bt{
+	display: inline-block;
+}
+.gallery-li-bt button,.gallery-li-bt input{
+	    width: 150px;
+	    margin:0 5px;
+}

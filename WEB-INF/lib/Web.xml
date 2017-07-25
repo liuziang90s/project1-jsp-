@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<servlet>
+     <servlet-name>user_qt_servlet</servlet-name>
+     <servlet-class>src.servlet.user_qt_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_qt_servlet</servlet-name> 
+      <url-pattern>/src.servlet/user_qt_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_ht_servlet</servlet-name>
+     <servlet-class>src.servlet.user_ht_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_ht_servlet</servlet-name> 
+      <url-pattern>/src.servlet/user_ht_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_qt_servlet_wx</servlet-name>
+     <servlet-class>src.servlet.user_qt_servlet_wx</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_qt_servlet_wx</servlet-name> 
+      <url-pattern>/src.servlet/user_qt_servlet_wx</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_qt_servlet_cxc</servlet-name>
+     <servlet-class>src.servlet.user_qt_servlet_cxc</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_qt_servlet_cxc</servlet-name> 
+      <url-pattern>/src.servlet/user_qt_servlet_cxc</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>picup_servlet</servlet-name>
+     <servlet-class>src.servlet.picup_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>picup_servlet</servlet-name> 
+      <url-pattern>/src.servlet/picup_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>picupall_servlet</servlet-name>
+     <servlet-class>src.servlet.picupall_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>picupall_servlet</servlet-name> 
+      <url-pattern>/src.servlet/picupall_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>product_servlet</servlet-name>
+     <servlet-class>src.servlet.product_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>product_servlet</servlet-name> 
+      <url-pattern>/src.servlet/product_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>product_servlet_wx</servlet-name>
+     <servlet-class>src.servlet.product_servlet_wx</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>product_servlet_wx</servlet-name> 
+      <url-pattern>/src.servlet/product_servlet_wx</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>product_servlet_cxc</servlet-name>
+     <servlet-class>src.servlet.product_servlet_cxc</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>product_servlet_cxc</servlet-name> 
+      <url-pattern>/src.servlet/product_servlet_cxc</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_clt_servlet</servlet-name>
+     <servlet-class>src.servlet.user_clt_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_clt_servlet</servlet-name> 
+      <url-pattern>/src.servlet/user_clt_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_dd_servlet</servlet-name>
+     <servlet-class>src.servlet.user_dd_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_dd_servlet</servlet-name> 
+      <url-pattern>/src.servlet/user_dd_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_clt_servlet_wx</servlet-name>
+     <servlet-class>src.servlet.user_clt_servlet_wx</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_clt_servlet_wx</servlet-name> 
+      <url-pattern>/src.servlet/user_clt_servlet_wx</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_clt_servlet_xcx</servlet-name>
+     <servlet-class>src.servlet.user_clt_servlet_xcx</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_clt_servlet_xcx</servlet-name> 
+      <url-pattern>/src.servlet/user_clt_servlet_xcx</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_judge_servlet</servlet-name>
+     <servlet-class>src.servlet.user_judge_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_judge_servlet</servlet-name> 
+      <url-pattern>/src.servlet/user_judge_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>pro_lb_servlet</servlet-name>
+     <servlet-class>src.servlet.pro_lb_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>pro_lb_servlet</servlet-name> 
+      <url-pattern>/src.servlet/pro_lb_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>middle_servlet</servlet-name>
+     <servlet-class>src.servlet.middle_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>middle_servlet</servlet-name> 
+      <url-pattern>/src.servlet/middle_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_judge_servlet_wx</servlet-name>
+     <servlet-class>src.servlet.user_judge_servlet_wx</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_judge_servlet_wx</servlet-name> 
+      <url-pattern>/src.servlet/user_judge_servlet_wx</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>user_judge_servlet_cxc</servlet-name>
+     <servlet-class>src.servlet.user_judge_servlet_cxc</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>user_judge_servlet_cxc</servlet-name> 
+      <url-pattern>/src.servlet/user_judge_servlet_cxc</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>page_servlet</servlet-name>
+     <servlet-class>src.servlet.page_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>page_servlet</servlet-name> 
+      <url-pattern>/src.servlet/page_servlet</url-pattern>
+</servlet-mapping>
+<servlet>
+     <servlet-name>message_servlet</servlet-name>
+     <servlet-class>src.servlet.message_servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+      <servlet-name>message_servlet</servlet-name> 
+      <url-pattern>/src.servlet/message_servlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

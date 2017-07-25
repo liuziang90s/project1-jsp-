@@ -1,0 +1,276 @@
+/*页面条件搜索框*/
+.uf-form input{
+			width:150px !important;
+		}
+.hovertable {
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+color:#333333;
+border-width: 1px;
+border-color: #999999;
+border-collapse: collapse;
+}
+.hovertable th {
+background-color:#c3dde0;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+}
+.hovertable tr {
+background-color:#d4e3e5;
+}
+.hovertable td {
+width:10%;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #a9c6c9;
+white-space:nowrap;
+}
+
+
+
+/*framework edit*/
+html{
+	height:100%;
+	font-size:100%;
+}
+body {
+    font: 14px 'Helvetica Neue','Microsoft YaHei','Hiragino Sans GB','WenQuanYi Micro Hei',Helvetica,Arial,Sans-serif;
+    line-height: 1.428571429;
+    color: #444;
+    margin:0px;
+    padding:0px;
+	height:100%;
+}
+ul,li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+a {
+	text-decoration:none;
+	color:#666;
+}
+.ui.dropdown > .text {
+    min-width:150px;
+}
+.ui.notif.menu {
+	box-shadow:none;
+}
+.ui.notif.menu .item {
+	padding:0 10px 0 0;
+	margin-right:16px
+}
+.ui.notif.menu .item:before{
+	display:none;
+}
+.ui.notif.menu .item:hover{
+	color:#666;
+}
+/*the style begin*/
+#page{
+	position:absolute;
+	top:120px;
+	left:50%;
+	transform:translateX(-50%);
+	width:600px;
+	background: #fff;
+	box-shadow: 0px 4px 15px #181818;
+	padding-bottom:16px;
+	padding-bottom:1rem;
+	overflow:hidden;
+	display:none;
+}
+span.ui.checkbox {
+    padding-right:16px;
+}
+.ui.radio.checkbox{
+    margin:16px 16px 8px 0 !important;
+}
+.ui.warning.message a{
+    color:#96904D;
+}
+.ui.warning.message a:hover, .ui.warning.message a:focus {
+    text-decoration:underline;
+}
+.ui.feed a{
+	color: #009FDA;
+}
+.ui.feed a:hover,.ui.feed a:focus{
+	color:#00BAFF;
+	text-decoration:underline;
+}
+.ui.table {
+	font-size:14px;
+}
+/*select*/
+select {
+  text-transform: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.form-control {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  vertical-align: middle;
+  color: rgba(0,0,0,.8);
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  cursor:pointer;
+}
+.form-control:focus {
+  outline: 0;
+}
+.form-control:-moz-placeholder {
+  color: #999999;
+}
+.form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+/*segment*/
+.ui.segment .right{
+    float:right;
+}
+/*header*/
+header{
+	position:relative;
+	height:72px;
+}
+#logo{
+	float:left;
+	width:180px;
+	height:72px;
+	background: url(../images/logo.png) left center no-repeat;
+}
+#logo a{
+	display:block;
+	width:180px;
+	height:72px;
+	text-indent: -999em;
+}
+header .user{
+	display:inline;
+	float:right;
+	margin-top:22px;
+}
+/*main content*/
+.pageHeader, .verticalMenu{
+    padding:16px 0;
+	padding:1rem 0;
+}
+/*show api key*/
+#showApiKey .segment{
+	background:none;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+#showApiKey .segment label{
+	font-size:16px;
+}
+#deviceQuickButton {
+	float:right;
+}
+/*index list*/
+#indexList{
+	padding-top:2rem;
+}
+#indexList .segment{
+	padding:0;
+}
+#indexList a.content{
+	position:relative;
+	padding:1rem;
+	display:block;
+	min-height:13em;
+	z-index:100;
+}
+textarea{
+	 width: 40vw !important;
+}
+button.tc-close{
+	width:60px;
+	height:35px;
+	margin-left:10px;
+	border:1px solid #ccc;
+}
+.ui.left.icon.input > input {
+	width: 24em;
+}
+/*qt-profile.jsp*/
+
+
+/*删除按钮提示弹出框*/
+.cont_info_log_sign_up {
+			    display: none;
+			    z-index: 100;
+			    position: absolute;
+			    width: 640px;
+			    left:50%;
+			    
+			    top: 100px;
+			}
+			.col_md_login {
+			    position: relative;
+			    float: left;
+			    width: 50%;
+			}
+			.cont_ba_opcitiy {
+			    position: relative;
+			    background-color: rgba(187, 168, 170, 0.79);
+			    width: 80%;
+			    border-radius: 3px;
+			    margin-top: 60px;
+			    padding: 15px 0px;
+			}
+			.cont_ba_opcitiy > h4 {
+			    font-weight: 400;
+			    color: #fff;
+			    text-align: center;
+			}
+			.cl-dl-form {
+			    background-color: #FF9800;
+			    border: none;
+			    padding: 10px;
+			    width: 125px;
+			    border-radius: 3px;
+			    box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+			    color: #fff;
+			    margin-top: 10px;
+			    cursor: pointer;
+			}
+			.cont_info_log_sign_up {
+				display: none;
+				z-index: 1000;
+				position: fixed;
+			    width: 640px;
+			    height: 280px;
+			    top: 100px;
+			}
+			.btn_sign_up {
+			    background-color: #f44336;
+			    border: none;
+			    padding: 10px;
+			    width: 125px;
+			    border-radius: 3px;
+			    box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+			    color: #fff;
+			    margin-top: 10px;
+			    cursor: pointer;
+			}
+			.myform{
+				display:inline-block;
+			}
